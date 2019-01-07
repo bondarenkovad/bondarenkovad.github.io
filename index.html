@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Clean - One Page Personal Portfolio</title>
+	<title>Бондаренко Вадим</title>
 
 	<!-- CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -33,9 +33,9 @@
 	<section id="home" class="pfblock-image screen-height">
         <div class="home-overlay"></div>
 		<div class="intro">
-			<div class="start">Hello, my name is John Doe and I am</div>
-			<h1>Full Stack Web Developer</h1>
-			<div class="start">creating modern and responsive Web Application</div>
+			<div class="start">Привет, Я Вадим Бондаренко - </div>
+			<h1>Junior Front-End Developer</h1>
+			<div class="start">создаю современные и адаптивные веб приложения</div>
 		</div>
 
         <a href="#services">
@@ -65,17 +65,18 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">John Doe</a>
+					<a class="navbar-brand" href="index.html">Вадим Бондаренко</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Works</a></li>
-                        <li><a href="#skills">Skills</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#home">Главная</a></li>
+						<li><a href="#about">Обо мне</a></li>
+						<li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Мои работы</a></li>
+                        <li><a href="#skills">Навыки</a></li>
+						<!--<li><a href="#testimonials">Testimonials</a></li>-->
+						<li><a href="#contact">Контакты</a></li>
 					</ul>
 				</div>
 
@@ -87,6 +88,52 @@
 
 	<!-- Navigation end -->
 
+	<!-- About start-->
+
+	<section id="about" class="about pfblock">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12 col-lg-12">
+					<h2 class="wow slideInRight pfblock-title" data-wow-delay=".1s">Обо мне</h2>
+					<div class="wow slideInRight pfblock-line"></div>
+				</div>
+
+				<div class="col-md-12 col-lg-12 wow fadeInUp">
+					<div class="about-holder">
+						<img src="assets/images/me.jpg"  class="about-image" alt="me" width="180" height="135">
+					</div>
+					<div class="about-content">
+						<p>
+							В 2017 году окончил Донецкий филиал КА ШАГ по специальности: “Разработка программного обеспечения”.
+							C того времени, вот уже более года, я развиваюсь в направлении front-end разработки. Начал
+							свою коммерческую деятельность в веб-студии Rocket Science, специализирующуюся на разработке
+							под ключ высоконагруженных проектов. Приоритетами компании в front-end была BEM методология,
+							модульное разделение структуры проектов, сборки проектов на основе webpack 3 и позже 4,
+							адаптивная и кроссбраузерная верстка. Познакомился с разработкой на Ruby on Rails,
+							фреймворками Vue, React.
+						</p>
+						<p>
+							Участвую на удаленной работе в проектах на сборщике gulp, занимаюсь версткой по PSD макетам,
+							Pixel Perfect версткой. А так же скриптами на JQuery для клиентской части проектов.
+						</p>
+						<p>
+							На данный момент занимаюсь версткой интернет-магазинов под CMS webasyst.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+					<a href="#contact" class="btn btn-lg">Мое резюме</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- About end-->
+
     <!-- Services start -->
 
 	<section id="services" class="pfblock pfblock-gray">
@@ -96,11 +143,11 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">This is what I do</h2>
+						<h2 class="pfblock-title">Услуги:</h2>
 						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-						</div>
+						<!--<div class="pfblock-subtitle">-->
+							<!--No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.-->
+						<!--</div>-->
 					</div>
 
 				</div>
@@ -109,69 +156,71 @@
 
 			<div class="row">
 
-				<div class="col-sm-3">
+				<div class="col-sm-6 col-xs-12">
 
 					<div class="iconbox wow slideInLeft">
 						<div class="iconbox-icon">
 							<span class="icon-magic-wand"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Design</h3>
+							<h3 class="iconbox-title">Html-верстка</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								Адаптивная, кроссбраузерная верстка по макетам PSD, <br>
+								Pixel Perfect верстка
 							</div>
 						</div>
 					</div>
 
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-6 col-xs-12">
 
 					<div class="iconbox wow slideInLeft">
 						<div class="iconbox-icon">
 							<span class="icon-puzzle"></span>
 						</div>
 						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Programming</h3>
+							<h3 class="iconbox-title">Javascript</h3>
 							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
+								Разработка приложений с использованием javascript, стандарта ES6,
+								разработка на библиотеке JQuery, разработка на фреймворках Vue.JS и React
 							</div>
 						</div>
 					</div>
 
 				</div>
 
-				<div class="col-sm-3">
+				<!--<div class="col-sm-3">-->
 
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-badge"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
+					<!--<div class="iconbox wow slideInRight">-->
+						<!--<div class="iconbox-icon">-->
+							<!--<span class="icon-badge"></span>-->
+						<!--</div>-->
+						<!--<div class="iconbox-text">-->
+							<!--<h3 class="iconbox-title">Branding</h3>-->
+							<!--<div class="iconbox-desc">-->
+								<!--Good things come to those who wait, but only the things left by those who hustle-->
+							<!--</div>-->
+						<!--</div>-->
+					<!--</div>-->
 
-				</div>
+				<!--</div>-->
 
-				<div class="col-sm-3">
+				<!--<div class="col-sm-3">-->
 
-					<div class="iconbox wow slideInRight">
-						<div class="iconbox-icon">
-							<span class="icon-question"></span>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Consultation</h3>
-							<div class="iconbox-desc">
-								Good things come to those who wait, but only the things left by those who hustle
-							</div>
-						</div>
-					</div>
+					<!--<div class="iconbox wow slideInRight">-->
+						<!--<div class="iconbox-icon">-->
+							<!--<span class="icon-question"></span>-->
+						<!--</div>-->
+						<!--<div class="iconbox-text">-->
+							<!--<h3 class="iconbox-title">Consultation</h3>-->
+							<!--<div class="iconbox-desc">-->
+								<!--Good things come to those who wait, but only the things left by those who hustle-->
+							<!--</div>-->
+						<!--</div>-->
+					<!--</div>-->
 
-				</div>
+				<!--</div>-->
 
 			</div><!-- .row -->
 		</div><!-- .container -->
@@ -188,7 +237,7 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">My works</h2>
+						<h2 class="pfblock-title">Мои работы:</h2>
 						<div class="pfblock-line"></div>
 						<!--<div class="pfblock-subtitle">-->
 							<!--No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.-->
@@ -326,11 +375,11 @@
                         <div class="col-sm-6 col-sm-offset-3">
 
                             <div class="pfblock-header wow fadeInUp">
-                                <h2 class="pfblock-title">My Skills</h2>
+                                <h2 class="pfblock-title">Навыки</h2>
                                 <div class="pfblock-line"></div>
-                                <div class="pfblock-subtitle">
-                                    No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-                                </div>
+                                <!--<div class="pfblock-subtitle">-->
+                                    <!--No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.-->
+                                <!--</div>-->
                             </div>
 
                         </div>
@@ -341,25 +390,25 @@
 						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">80</span>
                         </span>
-						<h3 class="text-center">Programming</h3>
+						<h3 class="text-center">CSS, HTML5</h3>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">90</span>
+						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">80</span>
                         </span>
-						<h3 class="text-center">Design</h3>
+						<h3 class="text-center">JQuery</h3>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="85" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">85</span>
+						<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">60</span>
                         </span>
-						<h3 class="text-center">Marketing</h3>
+						<h3 class="text-center">Vue</h3>
 					</div>
 					<div class="col-sm-6 col-md-3 text-center">
-						<span data-percent="95" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
-                            <span class="percent">95</span>
+						<span data-percent="60" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">60</span>
                         </span>
-						<h3 class="text-center">UI / UX</h3>
+						<h3 class="text-center">JAVASCRIPT</h3>
 					</div>
 					
 				</div><!--End row -->
@@ -372,75 +421,75 @@
 
 	<!-- CallToAction start -->
 
-	<section class="calltoaction">
-		<div class="container">
+	<!--<section class="calltoaction">-->
+		<!--<div class="container">-->
 
-			<div class="row">
+			<!--<div class="row">-->
 
-				<div class="col-md-12 col-lg-12">
-					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
-					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
-						I'm available for freelance projects.
-					</div>
-				</div>
+				<!--<div class="col-md-12 col-lg-12">-->
+					<!--<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>-->
+					<!--<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">-->
+						<!--I'm available for freelance projects.-->
+					<!--</div>-->
+				<!--</div>-->
 
-				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
-					<a href="#contact" class="btn btn-lg">Hire Me</a>
-				</div>
+				<!--<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">-->
+					<!--<a href="#contact" class="btn btn-lg">Hire Me</a>-->
+				<!--</div>-->
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
+			<!--</div>&lt;!&ndash; .row &ndash;&gt;-->
+		<!--</div>&lt;!&ndash; .container &ndash;&gt;-->
+	<!--</section>-->
 
 	<!-- CallToAction end -->
 
 	<!-- Testimonials start -->
 
-	<section id="testimonials" class="pfblock pfblock-gray">
+	<!--<section id="testimonials" class="pfblock pfblock-gray">-->
 
-		<div class="container">
-            
-            <div class="row">
+		<!--<div class="container">-->
+            <!---->
+            <!--<div class="row">-->
 
-				<div class="col-sm-6 col-sm-offset-3">
+				<!--<div class="col-sm-6 col-sm-offset-3">-->
 
-					<div class="pfblock-header wow fadeInUp">
-						<h2 class="pfblock-title">What my clients say</h2>
-						<div class="pfblock-line"></div>
-						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
-						</div>
-					</div>
+					<!--<div class="pfblock-header wow fadeInUp">-->
+						<!--<h2 class="pfblock-title">What my clients say</h2>-->
+						<!--<div class="pfblock-line"></div>-->
+						<!--<div class="pfblock-subtitle">-->
+							<!--No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.-->
+						<!--</div>-->
+					<!--</div>-->
 
-				</div>
+				<!--</div>-->
 
-			</div><!-- .row -->
+			<!--</div>&lt;!&ndash; .row &ndash;&gt;-->
 
-            <div class="row">
+            <!--<div class="row">-->
 
-			<div id="cbp-qtrotator" class="cbp-qtrotator">
-                <div class="cbp-qtcontent">
-                    <img src="assets/images/client-1.jpg" alt="client-1" />
-                    <blockquote>
-                      <p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>
-                      <footer>Pino Caruso</footer>
-                    </blockquote>
-                </div>
-                <div class="cbp-qtcontent">
-                    <img src="assets/images/client-2.jpg" alt="client-2" />
-                    <blockquote>
-                      <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
-                      <footer>Jane Doe</footer>
-                    </blockquote>
-                </div>
+			<!--<div id="cbp-qtrotator" class="cbp-qtrotator">-->
+                <!--<div class="cbp-qtcontent">-->
+                    <!--<img src="assets/images/client-1.jpg" alt="client-1" />-->
+                    <!--<blockquote>-->
+                      <!--<p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>-->
+                      <!--<footer>Pino Caruso</footer>-->
+                    <!--</blockquote>-->
+                <!--</div>-->
+                <!--<div class="cbp-qtcontent">-->
+                    <!--<img src="assets/images/client-2.jpg" alt="client-2" />-->
+                    <!--<blockquote>-->
+                      <!--<p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>-->
+                      <!--<footer>Jane Doe</footer>-->
+                    <!--</blockquote>-->
+                <!--</div>-->
 
-            </div>		
+            <!--</div>		-->
 
-            </div><!-- .row -->
+            <!--</div>&lt;!&ndash; .row &ndash;&gt;-->
 
-					
-		</div><!-- .row -->
-	</section>
+					<!---->
+		<!--</div>&lt;!&ndash; .row &ndash;&gt;-->
+	<!--</section>-->
 
 	<!-- Testimonial end -->
 
@@ -454,10 +503,10 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<div class="pfblock-header">
-						<h2 class="pfblock-title">Drop me a line</h2>
+						<h2 class="pfblock-title">Контакты</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+							Связаться со мной можно через форму ниже, либо по ссылкам на социальные сети в футере
 						</div>
 					</div>
 

@@ -324,15 +324,15 @@ textarea.form-control {
 	text-align: center;
 }
 
-.calltoaction-btn > .btn {
-    background: rgba(255, 255, 255, .8);
-    color: #111;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-.calltoaction-btn > .btn:hover{
-    background: #fff;
-}
+/*.calltoaction-btn > .btn {*/
+    /*background: rgba(255, 255, 255, .8);*/
+    /*color: #111;*/
+	/*margin-top: 5px;*/
+	/*margin-bottom: 5px;*/
+/*}*/
+/*.calltoaction-btn > .btn:hover{*/
+    /*background: #fff;*/
+/*}*/
 
 .long-down {
 	margin-bottom: 40px;
@@ -554,7 +554,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: cursive;
 }
 
 .navbar-custom .dropdown-menu {
@@ -988,6 +988,39 @@ figure.effect-bubba:hover p {
 	float: right;
 	margin-left: 3em;
 }
+
+.about {
+	padding: 80px 0;
+	text-align: center;
+}
+
+.about-holder {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 20px auto;
+	border-radius: 50%;
+}
+
+.about-image{
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.about-content {
+	width: 66%;
+	margin: 0 auto;
+}
+
+.about-content p {
+	color: #ececec;
+	margin: 20px 0 30px;
+}
+
+
+
 
 /* Example for media query */
 @media screen and (max-width: 30.6em) { 
