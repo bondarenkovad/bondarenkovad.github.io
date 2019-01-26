@@ -1050,3 +1050,14 @@ figure.effect-bubba:hover p {
 
 }
 
+/* ---- .grid-item ---- */
+
+.portfolio-element {
+	float: left;
+	width: 360px;
+	height: 455px;
+	display: block;
+}
+
+.portfolio-element--width { width: 455px; height: 360px; }
+.portfolio-element--height { height: 455px; width: 360px; }
