@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="11" viewBox="0 0 9 11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="735" y1="957.5" x2="744" y2="957.5" gradientUnits="userSpaceOnUse">
+      <stop offset="-0.25" stop-color="#5900e8"/>
+      <stop offset="1.25" stop-color="#e8006f"/>
+    </linearGradient>
+  </defs>
+  <path id="Многоугольник_577" data-name="Многоугольник 577" class="cls-1" d="M744,957.5l-9,5.5V952Z" transform="translate(-735 -952)"/>
+</svg>

@@ -88,9 +88,7 @@
 			$grid.isotope({
 				filter: filterValue,
 				itemSelector: '.portfolio-element',
-				masonry: {
-					columnWidth: 100
-				}
+				layoutMode: 'fitRows',
 			});
 		});
         
