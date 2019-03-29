@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>VIDEO | BIZZILION.COM</title>
+	<title>CONTEST | BIZZILION.COM</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -287,7 +287,7 @@
 					</div>
 				</div>
 				<div class="form-field google-capcha-block">
-
+					<div class="g-recaptcha" data-sitekey="6Le0uJAUAAAAADxpyWMXuYIhMm9ahK5UEgHHAxcI"></div>
 				</div>
 				<div class="form-field button-holder">
 					<button class="btn-title-block">become a representative</button>
@@ -557,15 +557,15 @@
 </section>
 <section id="video-last">
 	<div class="container">
-		<form action="https://echo.htmlacademy.ru" method="post" id="filter-form">
+		<form action="/mail/filterVideo.php" method="post" id="filter-form">
 			<input type="hidden" name="type" id="filter-type">
 			<input type="hidden" name="country[]" id="filter-country">
 			<input type="hidden" name="showAll" id="filter-show-all">
 			<div class="row">
-				<div class="col-md-6 col-xs-12">
+				<div class="col-lg-6 col-md-12 col-xs-12">
 					<h2>Last Added</h2>
 				</div>
-				<div class="col-md-6 col-xs-12">
+				<div class="col-lg-6 col-md-12 col-xs-12">
 					<div class="filter">
 						<span class="title">sort by:</span>
 						<div class="select select-type">
@@ -575,7 +575,7 @@
 								<ul class="last-list">
 									<li><a href="javascript:void(0)" data-value="deposit"><span class="v-checkbox"></span>deposit</a>
 									</li>
-									<li><a href="javascript:void(0)" data-value="username"><span class="v-checkbox"></span>username</a>
+									<li><a href="javascript:void(0)" data-value="user"><span class="v-checkbox"></span>username</a>
 									</li>
 									<li><a href="javascript:void(0)" data-value="country"><span class="v-checkbox"></span>country</a>
 									</li>
@@ -590,12 +590,12 @@
 							<div class="select-last"><a href="javascript:void(0)" class="js-select-link">choose country</a>
 							</div>
 							<div class="select-tab">
-								<ul class="last-list js-scroll">
+								<ul class="last-list js-scroll" id="country-list">
 									<li><a href="javascript:void(0)" data-source="abkhazia"><span class="v-checkbox"></span>Abkhazia</a></li>
 									<li><a href="javascript:void(0)" data-source="albania"><span class="v-checkbox"></span>Albania</a></li>
 									<li><a href="javascript:void(0)" data-source="algeria"><span class="v-checkbox"></span>Algeria</a></li>
 									<li><a href="javascript:void(0)" data-source="armenia"><span class="v-checkbox"></span>Armenia</a></li>
-									<li><a href="javascript:void(0)" data-source="arab emirates"><span class="v-checkbox"></span>Arab Emirates</a></li>
+									<li><a href="javascript:void(0)" data-source="arabemirates"><span class="v-checkbox"></span>Arab Emirates</a></li>
 									<li><a href="javascript:void(0)" data-source="argentina"><span class="v-checkbox"></span>Argentina</a></li>
 									<li><a href="javascript:void(0)" data-source="austria"><span class="v-checkbox"></span>Austria</a></li>
 									<li><a href="javascript:void(0)" data-source="azerbaijan"><span class="v-checkbox"></span>Azerbaijan</a></li>
@@ -609,12 +609,13 @@
 									<li><a href="javascript:void(0)" data-source="cameroon"><span class="v-checkbox"></span>Cameroon</a></li>
 									<li><a href="javascript:void(0)" data-source="china"><span class="v-checkbox"></span>China</a></li>
 									<li><a href="javascript:void(0)" data-source="colombia"><span class="v-checkbox"></span>Colombia</a></li>
-									<li><a href="javascript:void(0)" data-source="czech republic"><span class="v-checkbox"></span>Czech Republic</a></li>
+									<li><a href="javascript:void(0)" data-source="czechrepublic"><span class="v-checkbox"></span>Czech Republic</a></li>
 									<li><a href="javascript:void(0)" data-source="egypt"><span class="v-checkbox"></span>Egypt</a></li>
 									<li><a href="javascript:void(0)" data-source="france"><span class="v-checkbox"></span>France</a></li>
 									<li><a href="javascript:void(0)" data-source="germany"><span class="v-checkbox"></span>Germany</a></li>
-									<li><a href="javascript:void(0)" data-source="Ghana"><span class="v-checkbox"></span>Ghana</a></li>
-									<li><a href="javascript:void(0)" data-source="Greece"><span class="v-checkbox"></span>Greece</a></li>
+									<li><a href="javascript:void(0)" data-source="ghana"><span class="v-checkbox"></span>Ghana</a></li>
+									<li><a href="javascript:void(0)" data-source="greece"><span class="v-checkbox"></span>Greece</a></li>
+									<li><a href="javascript:void(0)" data-source="greatbritain"><span class="v-checkbox"></span>Great Britain</a></li>
 								</ul>
 
 								<div class="submit">
@@ -627,243 +628,243 @@
 				</div>
 			</div>
 			<ul class="items" id="video-container">
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>NickName1990</p>
-				<img src="build/img/flags/ao.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.200000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				</div>
-				</div>
-				</li>
-
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>LoraHlora322</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.800000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>NickName1990</p>-->
+				<!--<img src="build/img/flags/ao.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.200000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>LoraHlora322</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.200000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>LoraHlora322</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.800000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>NickName1990</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.800000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>LoraHlora322</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.200000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>NickName1990</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.200000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>NickName1990</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.800000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>NickName1990</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.200000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>NickName1990</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.200000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>NickName1990</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.200000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>NickName1990</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.200000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 
-				<li class="item">
-				<div class="holder">
-				<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"
-				data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>
-				<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">
-				</div>
-				<div class="content">
-				<div class="nickname">
-				<p>NickName1990ddddddddddddddddddddddfdsfsfsdfsdffd</p>
-				<img src="build/img/flags/gb.png" class="flag" alt="country">
-				</div>
-				<p class="balance">deposit: <b>0.200000 btc</b></p>
-				<p class="text">
-				Short video and upload it to the network in any convenient way
-				</p>
-				<div class="info">
-				<time datetime="2018-10-15">Oct 15, 2018</time>
-				<!--<p>-->
-				<!--<span class="views"><i class="fa-eye"></i>512</span>-->
-				<!--<span class="rating">-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star"></i>-->
-				<!--<i class="fa-star-o"></i>-->
-				<!--</span>-->
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-2.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>NickName1990</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.200000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
 				<!--</p>-->
-				</div>
-				</div>
-				</li>
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
+
+				<!--<li class="item">-->
+				<!--<div class="holder">-->
+				<!--<a class="play" href="javascript:void(0)" data-toggle="modal" data-target="#videoModal"-->
+				<!--data-thevideo="https://www.youtube.com/embed/DqX7sC7oSYg"></a>-->
+				<!--<img src="build/img/video/stub-1.jpg" alt="картинка-заглушка">-->
+				<!--</div>-->
+				<!--<div class="content">-->
+				<!--<div class="nickname">-->
+				<!--<p>NickName1990ddddddddddddddddddddddfdsfsfsdfsdffd</p>-->
+				<!--<img src="build/img/flags/gb.png" class="flag" alt="country">-->
+				<!--</div>-->
+				<!--<p class="balance">deposit: <b>0.200000 btc</b></p>-->
+				<!--<p class="text">-->
+				<!--Short video and upload it to the network in any convenient way-->
+				<!--</p>-->
+				<!--<div class="info">-->
+				<!--<time datetime="2018-10-15">Oct 15, 2018</time>-->
+				<!--&lt;!&ndash;<p>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="views"><i class="fa-eye"></i>512</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;<span class="rating">&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;<i class="fa-star-o"></i>&ndash;&gt;-->
+				<!--&lt;!&ndash;</span>&ndash;&gt;-->
+				<!--&lt;!&ndash;</p>&ndash;&gt;-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</li>-->
 			</ul>
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4">
@@ -956,5 +957,7 @@
 </footer>
 <script type="text/javascript" src="build/js/all.min.js"></script>
 <script type="text/javascript" src="build/js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="build/js/jquery.mark.min.js"></script>
+<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/v1552285980763/recaptcha__ru.js"></script>
 </body>
 </html>
