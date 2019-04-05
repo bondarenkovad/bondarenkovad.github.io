@@ -1069,3 +1069,59 @@ figure.effect-bubba:hover p {
 	max-height: 100%;
 	object-fit: cover;
 }
+
+.iconbox-desc{
+	min-height:75px;
+}
+
+@media screen and (max-width: 991px) {
+
+	.iconbox-desc {
+		min-height: 100px;
+	}
+
+	.portfolio-categories{
+		width: 100%;
+		text-align: center;
+	}
+
+	.portfolio-element{
+		width: 49%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.iconbox-desc {
+		min-height: auto;
+	}
+
+	.portfolio-element {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.about-content{
+		width: 100%;
+	}
+
+	.about-content p{
+		text-align: justify;
+	}
+
+	.pfblock{
+		padding: 30px 0;
+	}
+
+}
+
+@media screen and (max-width: 370px) {
+
+	.scroll-down {
+		bottom: 15px;
+	}
+
+}

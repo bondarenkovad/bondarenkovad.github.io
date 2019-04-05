@@ -24,7 +24,7 @@
 			e.preventDefault();
 		});
 
-		$(window).scroll(function() {
+		$(window).scroll(function(e) {
 			if ($(this).scrollTop() > 100) {
 				$('.scroll-up').fadeIn();
 			} else {
