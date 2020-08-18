@@ -908,6 +908,7 @@ figure.effect-bubba h2 {
 figure.effect-bubba p {
 	padding: 20px 2.5em;
 	opacity: 0;
+	font-weight: bold;
 	text-transform: none;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -958,7 +959,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
+	position: relative;
 	z-index: 100;
 	pointer-events: auto;
 	opacity: 1;
@@ -1044,7 +1045,7 @@ figure.effect-bubba:hover p {
 
 
 /* Example for media query */
-@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;
