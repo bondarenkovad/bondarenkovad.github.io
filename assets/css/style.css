@@ -726,7 +726,9 @@ textarea.form-control {
 /*--------------------------------*/
 
 .portfolio-categories {
-	width: 66%;
+	width: 100%;
+	padding-left: 0;
+	text-align: center;
 	margin: 0 auto 20px;
 	list-style: none;
 }
@@ -1120,7 +1122,9 @@ figure.effect-bubba:hover p {
 }
 
 @media screen and (max-width: 370px) {
-
+	.navbar-custom .navbar-brand {
+		font-size: 14px;
+	}
 	.scroll-down {
 		bottom: 15px;
 	}
